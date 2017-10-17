@@ -201,3 +201,2060 @@ Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 12
 
 Started GET "/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0" for 213.205.198.212 at 2017-10-17 19:16:46 +0000
 Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/pages/contact" for 213.205.198.212 at 2017-10-17 19:24:32 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#contact as HTML
+  Rendered pages/_mailer.html.erb (746.1ms)
+  Rendered pages/contact.html.erb within layouts/application (805.3ms)
+  Rendered layouts/_nav.html.erb (55.8ms)
+  Rendered layouts/_foot.html.erb (0.2ms)
+Completed 200 OK in 2482ms (Views: 1148.8ms | ActiveRecord: 13.0ms)
+
+
+Started GET "/pages/contact" for 213.205.198.212 at 2017-10-17 19:24:38 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#contact as HTML
+  Rendered pages/_mailer.html.erb (11.3ms)
+  Rendered pages/contact.html.erb within layouts/application (12.1ms)
+  Rendered layouts/_nav.html.erb (0.7ms)
+  Rendered layouts/_foot.html.erb (0.2ms)
+Completed 200 OK in 52ms (Views: 50.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for 213.205.198.212 at 2017-10-17 19:24:40 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_nav.html.erb (0.8ms)
+  Rendered layouts/_foot.html.erb (0.2ms)
+Completed 200 OK in 605ms (Views: 604.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for 213.205.198.212 at 2017-10-17 19:31:02 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav.html.erb (3.1ms)
+  Rendered layouts/_foot.html.erb (0.4ms)
+Completed 200 OK in 121ms (Views: 120.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for 213.205.198.212 at 2017-10-17 19:31:38 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav.html.erb (0.9ms)
+  Rendered layouts/_foot.html.erb (0.2ms)
+Completed 200 OK in 86ms (Views: 85.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 213.205.198.212 at 2017-10-17 19:31:40 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  [1m[36mArticle Load (2.6ms)[0m  [1mSELECT  "articles".* FROM "articles"  ORDER BY "articles"."id" DESC LIMIT 5[0m
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav.html.erb (0.4ms)
+  Rendered layouts/_foot.html.erb (0.1ms)
+Completed 200 OK in 266ms (Views: 54.2ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/" for 213.205.198.212 at 2017-10-17 19:33:28 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  [1m[35mArticle Load (0.5ms)[0m  SELECT  "articles".* FROM "articles"  ORDER BY "articles"."id" DESC LIMIT 5
+  Rendered pages/index.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_nav.html.erb (0.6ms)
+  Rendered layouts/_foot.html.erb (0.2ms)
+Completed 200 OK in 54ms (Views: 50.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 213.205.198.212 at 2017-10-17 19:35:11 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  [1m[36mArticle Load (0.7ms)[0m  [1mSELECT  "articles".* FROM "articles"  ORDER BY "articles"."id" DESC LIMIT 5[0m
+  Rendered pages/index.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_nav.html.erb (0.6ms)
+  Rendered layouts/_foot.html.erb (0.2ms)
+Completed 200 OK in 57ms (Views: 54.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 213.205.198.212 at 2017-10-17 19:35:41 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  [1m[35mArticle Load (0.6ms)[0m  SELECT  "articles".* FROM "articles"  ORDER BY "articles"."id" DESC LIMIT 5
+  Rendered pages/index.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+  Rendered layouts/_foot.html.erb (0.4ms)
+Completed 200 OK in 62ms (Views: 59.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 213.205.198.212 at 2017-10-17 19:36:23 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (2.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  [1m[35mArticle Load (0.6ms)[0m  SELECT  "articles".* FROM "articles"  ORDER BY "articles"."id" DESC LIMIT 5
+  Rendered pages/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_nav.html.erb (1.4ms)
+  Rendered layouts/_foot.html.erb (0.5ms)
+Completed 200 OK in 372ms (Views: 345.7ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/users/sign_up" for 213.205.198.212 at 2017-10-17 19:36:28 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (75.7ms)
+  Rendered layouts/_nav.html.erb (1.0ms)
+  Rendered layouts/_foot.html.erb (0.2ms)
+Completed 200 OK in 204ms (Views: 174.0ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/users" for 213.205.198.212 at 2017-10-17 19:41:14 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kQEhNJNzoGM+ZR1zJoElGRfhxr0gEVvaVl+aHkOnLn0k9nJlfi3E4mDdp5GJBiEDEv2HHW6jIUYwFJHIOQhJNA==", "user"=>{"username"=>"mshemko", "firstname"=>"Mike", "lastname"=>"Shemk", "email"=>"shemko@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (12.6ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'shemko@gmail.com' LIMIT 1
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."username" = 'mshemko' LIMIT 1[0m
+  [1m[35mSQL (1.6ms)[0m  INSERT INTO "users" ("email", "encrypted_password", "username", "firstname", "lastname", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["email", "shemko@gmail.com"], ["encrypted_password", "$2a$10$qOhOckOzxDPtB1Z6Lom7DuU4SbJPeRDGs4d9aF5tLpURE3CPXy8eC"], ["username", "mshemko"], ["firstname", "Mike"], ["lastname", "Shemk"], ["created_at", "2017-10-17 19:41:14.543284"], ["updated_at", "2017-10-17 19:41:14.543284"]]
+  [1m[36m (3.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "last_sign_in_ip" = $3, "current_sign_in_ip" = $4, "sign_in_count" = $5, "updated_at" = $6 WHERE "users"."id" = $7[0m  [["last_sign_in_at", "2017-10-17 19:41:14.551363"], ["current_sign_in_at", "2017-10-17 19:41:14.551363"], ["last_sign_in_ip", "213.205.198.212"], ["current_sign_in_ip", "213.205.198.212"], ["sign_in_count", 1], ["updated_at", "2017-10-17 19:41:14.552331"], ["id", 1]]
+  [1m[35m (2.7ms)[0m  COMMIT
+Redirected to https://essentials-articles-mshemko.c9users.io/
+Completed 302 Found in 235ms (ActiveRecord: 63.0ms)
+
+
+Started GET "/" for 213.205.198.212 at 2017-10-17 19:41:14 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Redirected to https://essentials-articles-mshemko.c9users.io/articles
+  [1m[35mArticle Load (0.2ms)[0m  SELECT  "articles".* FROM "articles"  ORDER BY "articles"."id" DESC LIMIT 5
+Completed 302 Found in 10ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/articles" for 213.205.198.212 at 2017-10-17 19:41:15 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mArticle Load (0.3ms)[0m  SELECT  "articles".* FROM "articles"  ORDER BY "articles"."id" DESC LIMIT 5
+  [1m[36mArticle Load (0.5ms)[0m  [1mSELECT  "articles".* FROM "articles" LIMIT 2 OFFSET 0[0m
+  Rendered articles/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+  Rendered layouts/_foot.html.erb (0.2ms)
+Completed 200 OK in 51ms (Views: 46.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/articles/new" for 213.205.198.212 at 2017-10-17 19:41:19 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered articles/_form.html.erb (9.4ms)
+  Rendered articles/new.html.erb within layouts/application (11.0ms)
+  Rendered layouts/_nav.html.erb (0.4ms)
+  Rendered layouts/_foot.html.erb (0.2ms)
+Completed 200 OK in 223ms (Views: 197.8ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/articles" for 213.205.198.212 at 2017-10-17 19:41:31 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EqfB8aJLv5xQfqpvfOLBMzYiNTcSyW0LxK1X4xyca1+nUJKgTxXbHQ7GEI3TZcUpMz50l1x7F5ei5lw1ZjMMFg==", "article"=>{"title"=>"Article A", "body"=>"This is the body for article A"}, "commit"=>"Create Article"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "articles" ("title", "body", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "Article A"], ["body", "This is the body for article A"], ["user_id", 1], ["created_at", "2017-10-17 19:41:31.155761"], ["updated_at", "2017-10-17 19:41:31.155761"]]
+  [1m[35m (3.0ms)[0m  COMMIT
+Redirected to https://essentials-articles-mshemko.c9users.io/articles/1
+Completed 302 Found in 12ms (ActiveRecord: 4.3ms)
+
+
+Started GET "/articles/1" for 213.205.198.212 at 2017-10-17 19:41:31 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.4ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (102.9ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."article_id" = $1  [["article_id", 1]]
+  Rendered collection (0.0ms)
+  Rendered comments/_form.html.erb (11.0ms)
+  Rendered articles/show.html.erb within layouts/application (128.0ms)
+  Rendered layouts/_nav.html.erb (0.4ms)
+  Rendered layouts/_foot.html.erb (0.2ms)
+Completed 200 OK in 184ms (Views: 72.7ms | ActiveRecord: 105.8ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.woff2" for 213.205.198.212 at 2017-10-17 19:41:32 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.woff2"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (41.6ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.woff" for 213.205.198.212 at 2017-10-17 19:41:33 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.woff"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (31.2ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.ttf" for 213.205.198.212 at 2017-10-17 19:41:33 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.ttf"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (32.6ms)
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for 213.205.198.212 at 2017-10-17 19:41:34 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/articles" for 213.205.198.212 at 2017-10-17 19:41:36 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mArticle Load (0.4ms)[0m  SELECT  "articles".* FROM "articles"  ORDER BY "articles"."id" DESC LIMIT 5
+  [1m[36mArticle Load (0.3ms)[0m  [1mSELECT  "articles".* FROM "articles" LIMIT 2 OFFSET 0[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered articles/index.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+  Rendered layouts/_foot.html.erb (0.2ms)
+Completed 200 OK in 64ms (Views: 58.9ms | ActiveRecord: 1.6ms)
+
+
+Started DELETE "/users/sign_out" for 213.205.198.212 at 2017-10-17 19:41:43 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"3f/QSuuWJ3gSg82BpKMwNHu7kwit1TSR24EN7gi7f8poCIMbBshD+Uw7d2MLJDQufqfSqONnTg29ygY4chQYgw=="}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Redirected to https://essentials-articles-mshemko.c9users.io/
+Completed 302 Found in 7ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 213.205.198.212 at 2017-10-17 19:41:43 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  [1m[36mArticle Load (0.4ms)[0m  [1mSELECT  "articles".* FROM "articles"  ORDER BY "articles"."id" DESC LIMIT 5[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered pages/index.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+  Rendered layouts/_foot.html.erb (0.2ms)
+Completed 200 OK in 50ms (Views: 47.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/articles/1" for 213.205.198.212 at 2017-10-17 19:41:46 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.6ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/users/sign_in" for 213.205.198.212 at 2017-10-17 19:41:46 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (17.8ms)
+  Rendered layouts/_nav.html.erb (0.6ms)
+  Rendered layouts/_foot.html.erb (0.2ms)
+Completed 200 OK in 74ms (Views: 71.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 213.205.198.212 at 2017-10-17 19:41:50 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (13.0ms)
+  Rendered layouts/_nav.html.erb (0.7ms)
+  Rendered layouts/_foot.html.erb (0.2ms)
+Completed 200 OK in 74ms (Views: 73.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 213.205.198.212 at 2017-10-17 19:42:14 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hbU4s64KKQShQo7mn+vt4ELPUjx8Fnk3fBaCd8+SUAVmU13QfwCEMUU6LAJbnhgFQRiwRDo1xNEQuR0S/eESog==", "user"=>{"username"=>"mshemko", "firstname"=>"Mark", "lastname"=>"Shenko", "email"=>"michael.shemko@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'michael.shemko@gmail.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."username" = 'mshemko' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (12.1ms)
+  Rendered layouts/_nav.html.erb (0.6ms)
+  Rendered layouts/_foot.html.erb (0.2ms)
+Completed 200 OK in 136ms (Views: 55.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 213.205.198.212 at 2017-10-17 19:42:22 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  [1m[35mArticle Load (0.5ms)[0m  SELECT  "articles".* FROM "articles"  ORDER BY "articles"."id" DESC LIMIT 5
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered pages/index.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_nav.html.erb (0.6ms)
+  Rendered layouts/_foot.html.erb (0.2ms)
+Completed 200 OK in 48ms (Views: 44.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/sign_in" for 213.205.198.212 at 2017-10-17 19:44:56 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (12.6ms)
+  Rendered layouts/_nav.html.erb (0.8ms)
+  Rendered layouts/_foot.html.erb (0.2ms)
+Completed 200 OK in 77ms (Views: 63.2ms | ActiveRecord: 2.7ms)
+
+
+Started POST "/users/sign_in" for 213.205.198.212 at 2017-10-17 19:45:04 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VcnnCGbaDGbpBiY/QYgEZDX9Tch8CPyM877mnfFC5iK2L4Jrt9ChUw1+hNuF/fGBNiqvsDorQWqfEXn4wzGkhQ==", "user"=>{"email"=>"shemko@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (1.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["email", "shemko@gmail.com"]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (67.9ms)[0m  UPDATE "users" SET "current_sign_in_at" = $1, "sign_in_count" = $2, "updated_at" = $3 WHERE "users"."id" = $4  [["current_sign_in_at", "2017-10-17 19:45:04.514323"], ["sign_in_count", 2], ["updated_at", "2017-10-17 19:45:04.515731"], ["id", 1]]
+  [1m[36m (2.8ms)[0m  [1mCOMMIT[0m
+Redirected to https://essentials-articles-mshemko.c9users.io/articles/1
+Completed 302 Found in 156ms (ActiveRecord: 72.1ms)
+
+
+Started GET "/articles/1" for 213.205.198.212 at 2017-10-17 19:45:05 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mArticle Load (0.3ms)[0m  SELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."article_id" = $1[0m  [["article_id", 1]]
+  Rendered collection (0.0ms)
+  Rendered comments/_form.html.erb (10.5ms)
+  Rendered articles/show.html.erb within layouts/application (146.4ms)
+  Rendered layouts/_nav.html.erb (0.6ms)
+  Rendered layouts/_foot.html.erb (0.2ms)
+Completed 200 OK in 211ms (Views: 197.1ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.woff2" for 213.205.198.212 at 2017-10-17 19:45:08 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.woff2"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (34.5ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.woff" for 213.205.198.212 at 2017-10-17 19:45:08 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.woff"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (35.5ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.ttf" for 213.205.198.212 at 2017-10-17 19:45:09 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.ttf"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (36.9ms)
+
+
+Started GET "/articles" for 213.205.198.212 at 2017-10-17 19:45:18 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mArticle Load (0.4ms)[0m  [1mSELECT  "articles".* FROM "articles"  ORDER BY "articles"."id" DESC LIMIT 5[0m
+  [1m[35mArticle Load (0.4ms)[0m  SELECT  "articles".* FROM "articles" LIMIT 2 OFFSET 0
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered articles/index.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+  Rendered layouts/_foot.html.erb (0.2ms)
+Completed 200 OK in 57ms (Views: 51.7ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/articles/new" for 213.205.198.212 at 2017-10-17 19:45:20 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered articles/_form.html.erb (7.9ms)
+  Rendered articles/new.html.erb within layouts/application (9.8ms)
+  Rendered layouts/_nav.html.erb (0.4ms)
+  Rendered layouts/_foot.html.erb (0.2ms)
+Completed 200 OK in 68ms (Views: 62.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 213.205.198.212 at 2017-10-17 19:46:40 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Redirected to https://essentials-articles-mshemko.c9users.io/articles
+  [1m[36mArticle Load (0.3ms)[0m  [1mSELECT  "articles".* FROM "articles"  ORDER BY "articles"."id" DESC LIMIT 5[0m
+Completed 302 Found in 88ms (ActiveRecord: 4.4ms)
+
+
+Started GET "/articles" for 213.205.198.212 at 2017-10-17 19:46:41 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mArticle Load (0.5ms)[0m  [1mSELECT  "articles".* FROM "articles"  ORDER BY "articles"."id" DESC LIMIT 5[0m
+  [1m[35mArticle Load (0.6ms)[0m  SELECT  "articles".* FROM "articles" LIMIT 2 OFFSET 0
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered articles/index.html.erb within layouts/application (8.2ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+  Rendered layouts/_foot.html.erb (0.2ms)
+Completed 200 OK in 74ms (Views: 60.5ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/articles/new" for 213.205.198.212 at 2017-10-17 19:46:46 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered articles/_form.html.erb (17.2ms)
+  Rendered articles/new.html.erb within layouts/application (18.1ms)
+  Rendered layouts/_nav.html.erb (0.4ms)
+  Rendered layouts/_foot.html.erb (0.2ms)
+Completed 200 OK in 63ms (Views: 58.1ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/articles" for 213.205.198.212 at 2017-10-17 19:47:04 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hcNu5iFaLhbRbsW7lv6xRyTrGuy9TwZo9EjOV0mecrvo3nxfaQjj3P6MXpt5S5KUvoBVHeogwWKsIQHl+v0Z4Q==", "article"=>{"title"=>"Article A", "body"=>"My name is Mike and I love ruby on rails"}, "commit"=>"Create Article"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mArticle Exists (0.4ms)[0m  SELECT  1 AS one FROM "articles" WHERE "articles"."title" = 'Article A' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  Rendered articles/_form.html.erb (7.5ms)
+  Rendered articles/new.html.erb within layouts/application (8.4ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+  Rendered layouts/_foot.html.erb (0.2ms)
+Completed 200 OK in 64ms (Views: 56.0ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/articles" for 213.205.198.212 at 2017-10-17 19:47:10 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DeSnlo/JXnHMMQpgy8Uz2G0R+R36j3pA/AihbhFMLENg+bUvx5uTu+PTkUAkcBAL93q27K3gvUqkYW7coi9HGQ==", "article"=>{"title"=>"Article B", "body"=>"My name is Mike and I love ruby on rails"}, "commit"=>"Create Article"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mArticle Exists (0.3ms)[0m  SELECT  1 AS one FROM "articles" WHERE "articles"."title" = 'Article B' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "articles" ("title", "body", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "Article B"], ["body", "My name is Mike and I love ruby on rails"], ["user_id", 1], ["created_at", "2017-10-17 19:47:10.736352"], ["updated_at", "2017-10-17 19:47:10.736352"]]
+  [1m[35m (2.8ms)[0m  COMMIT
+Redirected to https://essentials-articles-mshemko.c9users.io/articles/2
+Completed 302 Found in 11ms (ActiveRecord: 3.8ms)
+
+
+Started GET "/articles/2" for 213.205.198.212 at 2017-10-17 19:47:11 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.4ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."article_id" = $1  [["article_id", 2]]
+  Rendered collection (0.0ms)
+  Rendered comments/_form.html.erb (9.7ms)
+  Rendered articles/show.html.erb within layouts/application (22.7ms)
+  Rendered layouts/_nav.html.erb (0.4ms)
+  Rendered layouts/_foot.html.erb (0.2ms)
+Completed 200 OK in 189ms (Views: 182.8ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.woff2" for 213.205.198.212 at 2017-10-17 19:47:11 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.woff2"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (35.5ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.woff" for 213.205.198.212 at 2017-10-17 19:47:12 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.woff"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (33.9ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.ttf" for 213.205.198.212 at 2017-10-17 19:47:12 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.ttf"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (35.9ms)
+
+
+Started GET "/articles" for 213.205.198.212 at 2017-10-17 19:48:13 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 2.6ms)
+
+SyntaxError (/home/ubuntu/workspace/app/models/article.rb:8: syntax error, unexpected tIDENTIFIER, expecting '}'
+  validates :body, length: { minimum: 15}
+           ^):
+  app/models/article.rb:8: syntax error, unexpected tIDENTIFIER, expecting '}'
+  app/controllers/articles_controller.rb:8:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (30.3ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.woff2" for 213.205.198.212 at 2017-10-17 19:48:19 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.woff2"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (45.7ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.woff" for 213.205.198.212 at 2017-10-17 19:48:19 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.woff"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (34.0ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.ttf" for 213.205.198.212 at 2017-10-17 19:48:20 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.ttf"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (34.9ms)
+
+
+Started GET "/" for 213.205.198.212 at 2017-10-17 19:48:22 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Redirected to https://essentials-articles-mshemko.c9users.io/articles
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.5ms)
+
+SyntaxError (/home/ubuntu/workspace/app/models/article.rb:8: syntax error, unexpected tIDENTIFIER, expecting '}'
+  validates :body, length: { minimum: 15}
+           ^):
+  app/models/article.rb:8: syntax error, unexpected tIDENTIFIER, expecting '}'
+  app/controllers/pages_controller.rb:8:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (28.9ms)
+
+
+Started GET "/" for 213.205.198.212 at 2017-10-17 19:48:37 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  [1m[36mUser Load (80.9ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Redirected to https://essentials-articles-mshemko.c9users.io/articles
+  [1m[35mArticle Load (0.4ms)[0m  SELECT  "articles".* FROM "articles"  ORDER BY "articles"."id" DESC LIMIT 5
+Completed 302 Found in 114ms (ActiveRecord: 85.6ms)
+
+
+Started GET "/articles" for 213.205.198.212 at 2017-10-17 19:48:37 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mArticle Load (0.4ms)[0m  SELECT  "articles".* FROM "articles"  ORDER BY "articles"."id" DESC LIMIT 5
+  [1m[36mArticle Load (0.3ms)[0m  [1mSELECT  "articles".* FROM "articles" LIMIT 2 OFFSET 0[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "articles"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered articles/index.html.erb within layouts/application (8.8ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+  Rendered layouts/_foot.html.erb (0.2ms)
+Completed 200 OK in 79ms (Views: 68.6ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.woff2" for 213.205.198.212 at 2017-10-17 19:48:38 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.woff2"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (55.5ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.woff" for 213.205.198.212 at 2017-10-17 19:48:38 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.woff"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (36.6ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.ttf" for 213.205.198.212 at 2017-10-17 19:48:38 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.ttf"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (35.7ms)
+
+
+Started GET "/articles/new" for 213.205.198.212 at 2017-10-17 19:48:40 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered articles/_form.html.erb (8.8ms)
+  Rendered articles/new.html.erb within layouts/application (9.7ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+  Rendered layouts/_foot.html.erb (0.7ms)
+Completed 200 OK in 79ms (Views: 73.0ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/articles" for 213.205.198.212 at 2017-10-17 19:48:49 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FVmIGek6H2O+NT8PbKGtXaa7veQgjdWNxlMbYrJAYYl4RJqgoWjSqZHXpC+DFI6OPNDyFXfiEoeeOtTQASMK0w==", "article"=>{"title"=>"Article B", "body"=>"hasdfasdfasdfasdfasdsaf"}, "commit"=>"Create Article"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mArticle Exists (0.4ms)[0m  SELECT  1 AS one FROM "articles" WHERE "articles"."title" = 'Article B' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  Rendered articles/_form.html.erb (8.3ms)
+  Rendered articles/new.html.erb within layouts/application (9.3ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+  Rendered layouts/_foot.html.erb (0.2ms)
+Completed 200 OK in 64ms (Views: 56.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 213.205.198.212 at 2017-10-17 19:48:58 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mArticle Load (0.4ms)[0m  [1mSELECT  "articles".* FROM "articles"  ORDER BY "articles"."id" DESC LIMIT 5[0m
+  [1m[35mArticle Load (0.4ms)[0m  SELECT  "articles".* FROM "articles" LIMIT 2 OFFSET 0
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered articles/index.html.erb within layouts/application (56.2ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+  Rendered layouts/_foot.html.erb (0.2ms)
+Completed 200 OK in 122ms (Views: 116.2ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.woff2" for 213.205.198.212 at 2017-10-17 19:48:59 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.woff2"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (33.4ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.woff" for 213.205.198.212 at 2017-10-17 19:49:00 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.woff"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (35.3ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.ttf" for 213.205.198.212 at 2017-10-17 19:49:00 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.ttf"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (35.0ms)
+
+
+Started GET "/articles" for 213.205.198.212 at 2017-10-17 19:51:20 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mArticle Load (0.4ms)[0m  [1mSELECT  "articles".* FROM "articles"  ORDER BY "articles"."id" DESC LIMIT 5[0m
+  [1m[35mArticle Load (0.5ms)[0m  SELECT  "articles".* FROM "articles" LIMIT 2 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered articles/index.html.erb within layouts/application (141.9ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+  Rendered layouts/_foot.html.erb (0.2ms)
+Completed 200 OK in 209ms (Views: 203.5ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.woff2" for 213.205.198.212 at 2017-10-17 19:51:21 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.woff2"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (41.0ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.woff" for 213.205.198.212 at 2017-10-17 19:51:22 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.woff"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (49.9ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.ttf" for 213.205.198.212 at 2017-10-17 19:51:23 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.ttf"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (38.7ms)
+
+
+Started GET "/articles" for 213.205.198.212 at 2017-10-17 19:51:59 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mArticle Load (0.5ms)[0m  [1mSELECT  "articles".* FROM "articles"  ORDER BY "articles"."id" DESC LIMIT 5[0m
+  [1m[35mArticle Load (0.4ms)[0m  SELECT  "articles".* FROM "articles" LIMIT 2 OFFSET 0
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered articles/index.html.erb within layouts/application (7.5ms)
+  Rendered layouts/_nav.html.erb (0.9ms)
+  Rendered layouts/_foot.html.erb (0.2ms)
+Completed 200 OK in 114ms (Views: 108.9ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.woff2" for 213.205.198.212 at 2017-10-17 19:51:59 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.woff2"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (34.0ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.woff" for 213.205.198.212 at 2017-10-17 19:52:00 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.woff"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (35.1ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.ttf" for 213.205.198.212 at 2017-10-17 19:52:00 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.ttf"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (45.3ms)
+
+
+Started GET "/articles/new" for 213.205.198.212 at 2017-10-17 19:52:05 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered articles/_form.html.erb (11.1ms)
+  Rendered articles/new.html.erb within layouts/application (24.9ms)
+  Rendered layouts/_nav.html.erb (0.8ms)
+  Rendered layouts/_foot.html.erb (0.3ms)
+Completed 200 OK in 169ms (Views: 163.1ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/articles" for 213.205.198.212 at 2017-10-17 19:52:18 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wK/LhLvRJutZwkcxZrD+QIUm7V9RJLEQm9gc0jcRP+Otstk984PrIXYg3BGJBd2TH02irgZLdhrDsdNghHJUuQ==", "article"=>{"title"=>"Article C", "body"=>"Testing time ago in words"}, "commit"=>"Create Article"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mArticle Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "articles" WHERE "articles"."title" = 'Article C' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("title", "body", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["title", "Article C"], ["body", "Testing time ago in words"], ["user_id", 1], ["created_at", "2017-10-17 19:52:18.520591"], ["updated_at", "2017-10-17 19:52:18.520591"]]
+  [1m[36m (12.0ms)[0m  [1mCOMMIT[0m
+Redirected to https://essentials-articles-mshemko.c9users.io/articles/3
+Completed 302 Found in 22ms (ActiveRecord: 13.3ms)
+
+
+Started GET "/articles/3" for 213.205.198.212 at 2017-10-17 19:52:19 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mArticle Load (0.4ms)[0m  SELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."article_id" = $1[0m  [["article_id", 3]]
+  Rendered collection (0.0ms)
+  Rendered comments/_form.html.erb (10.8ms)
+  Rendered articles/show.html.erb within layouts/application (24.7ms)
+  Rendered layouts/_nav.html.erb (0.6ms)
+  Rendered layouts/_foot.html.erb (0.3ms)
+Completed 200 OK in 79ms (Views: 72.5ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.woff2" for 213.205.198.212 at 2017-10-17 19:52:19 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.woff2"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (112.5ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.woff" for 213.205.198.212 at 2017-10-17 19:52:20 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.woff"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (34.3ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.ttf" for 213.205.198.212 at 2017-10-17 19:52:20 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.ttf"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (33.7ms)
+
+
+Started GET "/articles" for 213.205.198.212 at 2017-10-17 19:52:22 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mArticle Load (0.5ms)[0m  [1mSELECT  "articles".* FROM "articles"  ORDER BY "articles"."id" DESC LIMIT 5[0m
+  [1m[35mArticle Load (0.5ms)[0m  SELECT  "articles".* FROM "articles" LIMIT 2 OFFSET 0
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered articles/index.html.erb within layouts/application (178.7ms)
+  Rendered layouts/_nav.html.erb (0.6ms)
+  Rendered layouts/_foot.html.erb (0.2ms)
+Completed 200 OK in 246ms (Views: 239.2ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/articles?page=2" for 213.205.198.212 at 2017-10-17 19:52:27 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mArticle Load (0.5ms)[0m  SELECT  "articles".* FROM "articles"  ORDER BY "articles"."id" DESC LIMIT 5
+  [1m[36mArticle Load (0.4ms)[0m  [1mSELECT  "articles".* FROM "articles" LIMIT 2 OFFSET 2[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered articles/index.html.erb within layouts/application (171.3ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+  Rendered layouts/_foot.html.erb (0.1ms)
+Completed 200 OK in 224ms (Views: 218.3ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/articles?page=2" for 213.205.198.212 at 2017-10-17 19:52:50 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mArticle Load (0.6ms)[0m  [1mSELECT  "articles".* FROM "articles"  ORDER BY "articles"."id" DESC LIMIT 5[0m
+  [1m[35mArticle Load (0.6ms)[0m  SELECT  "articles".* FROM "articles" LIMIT 5 OFFSET 5
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered articles/index.html.erb within layouts/application (11.3ms)
+  Rendered layouts/_nav.html.erb (0.7ms)
+  Rendered layouts/_foot.html.erb (0.4ms)
+Completed 200 OK in 124ms (Views: 72.8ms | ActiveRecord: 6.8ms)
+
+
+Started GET "/articles/new" for 213.205.198.212 at 2017-10-17 19:52:56 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered articles/_form.html.erb (23.8ms)
+  Rendered articles/new.html.erb within layouts/application (25.9ms)
+  Rendered layouts/_nav.html.erb (2.1ms)
+  Rendered layouts/_foot.html.erb (1.1ms)
+Completed 200 OK in 171ms (Views: 162.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/articles" for 213.205.198.212 at 2017-10-17 19:52:59 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mArticle Load (0.6ms)[0m  [1mSELECT  "articles".* FROM "articles"  ORDER BY "articles"."id" DESC LIMIT 5[0m
+  [1m[35mArticle Load (0.4ms)[0m  SELECT  "articles".* FROM "articles" LIMIT 5 OFFSET 0
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered articles/index.html.erb within layouts/application (17.6ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+  Rendered layouts/_foot.html.erb (0.1ms)
+Completed 200 OK in 70ms (Views: 64.5ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/articles" for 213.205.198.212 at 2017-10-17 19:52:59 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mArticle Load (0.5ms)[0m  SELECT  "articles".* FROM "articles"  ORDER BY "articles"."id" DESC LIMIT 5
+  [1m[36mArticle Load (0.4ms)[0m  [1mSELECT  "articles".* FROM "articles" LIMIT 5 OFFSET 0[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered articles/index.html.erb within layouts/application (7.1ms)
+  Rendered layouts/_nav.html.erb (0.6ms)
+  Rendered layouts/_foot.html.erb (0.2ms)
+Completed 200 OK in 61ms (Views: 56.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.woff2" for 213.205.198.212 at 2017-10-17 19:53:00 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.woff2"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (38.9ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.woff" for 213.205.198.212 at 2017-10-17 19:53:02 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.woff"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (162.7ms)
+
+
+Started GET "/articles" for 213.205.198.212 at 2017-10-17 19:53:02 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mArticle Load (0.5ms)[0m  [1mSELECT  "articles".* FROM "articles"  ORDER BY "articles"."id" DESC LIMIT 5[0m
+  [1m[35mArticle Load (0.3ms)[0m  SELECT  "articles".* FROM "articles" LIMIT 5 OFFSET 0
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered articles/index.html.erb within layouts/application (8.4ms)
+  Rendered layouts/_nav.html.erb (0.6ms)
+  Rendered layouts/_foot.html.erb (0.2ms)
+Completed 200 OK in 84ms (Views: 78.4ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.ttf" for 213.205.198.212 at 2017-10-17 19:53:02 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.ttf"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (34.1ms)
+
+
+Started GET "/articles" for 213.205.198.212 at 2017-10-17 19:53:04 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mArticle Load (0.5ms)[0m  SELECT  "articles".* FROM "articles"  ORDER BY "articles"."id" DESC LIMIT 5
+  [1m[36mArticle Load (0.4ms)[0m  [1mSELECT  "articles".* FROM "articles" LIMIT 5 OFFSET 0[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered articles/index.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+  Rendered layouts/_foot.html.erb (0.2ms)
+Completed 200 OK in 208ms (Views: 202.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/articles" for 213.205.198.212 at 2017-10-17 19:55:06 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mArticle Load (0.7ms)[0m  [1mSELECT  "articles".* FROM "articles"  ORDER BY "articles"."id" DESC LIMIT 5[0m
+  [1m[35mArticle Load (0.5ms)[0m  SELECT  "articles".* FROM "articles" LIMIT 5 OFFSET 0
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered articles/index.html.erb within layouts/application (55.5ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+  Rendered layouts/_foot.html.erb (0.3ms)
+Completed 200 OK in 132ms (Views: 124.8ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.woff2" for 213.205.198.212 at 2017-10-17 19:55:08 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.woff2"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (37.3ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.woff" for 213.205.198.212 at 2017-10-17 19:55:08 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.woff"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (46.4ms)
+
+
+Started GET "/fonts/glyphicons-halflings-regular.ttf" for 213.205.198.212 at 2017-10-17 19:55:09 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.ttf"):
+  actionpack (4.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.8) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.8) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.8) lib/rails/engine.rb:518:in `call'
+  railties (4.2.8) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.4.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (37.2ms)
+
+
+Started GET "/articles/1" for 213.205.198.212 at 2017-10-17 19:55:13 +0000
+Cannot render console from 213.205.198.212! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.5ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."article_id" = $1  [["article_id", 1]]
+  Rendered collection (0.0ms)
+  Rendered comments/_form.html.erb (9.4ms)
+  Rendered articles/show.html.erb within layouts/application (23.8ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+  Rendered layouts/_foot.html.erb (0.2ms)
+Completed 200 OK in 154ms (Views: 147.3ms | ActiveRecord: 3.0ms)
