@@ -6,14 +6,16 @@
         <!-- Blog Post -->
 
         <!-- Title -->
-        <h1 style="font-size: 62.5px;">  
+        <h1 style="font-size: 36.5px;">  
          <%= @article.title %>
         </h1>
+      
 
         <!-- Author -->
         <p class="lead">
           <%= @article.user.username %>
         </p>
+        <%= image_tag @article.user.image.url(:thumb), class: "img-circle" %>
 
         <hr>
 
